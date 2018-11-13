@@ -1,4 +1,4 @@
-/* ZDRAVSTVENA USTANOVA */
+/*** ZDRAVSTVENA USTANOVA ***/
 
 class Person {
     constructor (firstname, lastname) {
