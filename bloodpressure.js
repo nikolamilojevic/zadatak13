@@ -7,7 +7,8 @@ class BloodPressureExam extends LabExam {
         this.results = {
             upper: '125',
             over: '75',
-            pulse: '74'
+            pulse: '74',
+            patient: this.patient
         }
         this.printResults()
     }

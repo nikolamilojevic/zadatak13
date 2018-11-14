@@ -4,7 +4,3 @@ class Person {
         this.lastname = lastname
     }
 }
-
-// var Milan = new Person ('Milan', 'Milanovic')
-
-// console.log(Milan)

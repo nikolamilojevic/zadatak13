@@ -8,6 +8,7 @@ class LabExam {
         this.patient = patient
     }
     printResults() {
-        console.log(this.results)
+        console.log(this.type, this.results)
+        Log.log(this.type + ' performed!')
     }
 }

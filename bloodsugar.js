@@ -6,7 +6,8 @@ class BloodSugarExam extends LabExam {
     perform() {
         this.results = {
             value: '7.5',
-            lastMeal: '18:25'
+            lastMeal: '18:25',
+            patient: this.patient
         }
         this.printResults()
     }

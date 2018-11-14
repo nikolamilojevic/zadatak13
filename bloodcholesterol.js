@@ -6,7 +6,8 @@ class BloodCholesterolExam extends LabExam {
     perform() {
         this.results = {
             value: '16.5',
-            lastMeal: '21:40'
+            lastMeal: '21:40',
+            patient: this.patient
         }
         this.printResults()
     }
