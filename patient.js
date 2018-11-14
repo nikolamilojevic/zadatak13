@@ -11,8 +11,8 @@ class Patient extends Person {
     }
 }
 
-var Milan = new Patient('Milan', 'Milanovic', '05101981', '01/2018')
-Milan.chooseDoctor(Dragan)
+// var Milan = new Patient('Milan', 'Milanovic', '05101981', '01/2018')
+// Milan.chooseDoctor(Dragan)
 
-console.log(Milan)
-console.log(Milan instanceof Person)
+// console.log(Milan)
+// console.log(Milan instanceof Person)

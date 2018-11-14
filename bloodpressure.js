@@ -5,7 +5,7 @@ class BloodPressureExam extends LabExam {
     }
 }
 
-var pregled = new BloodPressureExam ('12.10.2018.', '14:00', Milan)
+// var pregled = new BloodPressureExam ('12.10.2018.', '14:00', Milan)
 
-console.log(pregled)
-console.log(pregled instanceof LabExam)
+// console.log(pregled)
+// console.log(pregled instanceof LabExam)

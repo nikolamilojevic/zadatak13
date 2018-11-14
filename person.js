@@ -5,6 +5,6 @@ class Person {
     }
 }
 
-var Milan = new Person ('Milan', 'Milanovic')
+// var Milan = new Person ('Milan', 'Milanovic')
 
-console.log(Milan)
+// console.log(Milan)
