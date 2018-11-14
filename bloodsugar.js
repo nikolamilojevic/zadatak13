@@ -3,9 +3,11 @@ class BloodSugarExam extends LabExam {
         super(date, time, patient)
         this.type = 'Blood Sugar Exam'
     }
+    perform() {
+        this.results = {
+            value: '7.5',
+            lastMeal: '18:25'
+        }
+        this.printResults()
+    }
 }
-
-// var pregled = new BloodSugarExam ('12.10.2018.', '14:00', Milan)
-
-// console.log(pregled)
-// console.log(pregled instanceof LabExam)

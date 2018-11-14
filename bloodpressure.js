@@ -3,9 +3,12 @@ class BloodPressureExam extends LabExam {
         super(date, time, patient)
         this.type = 'Blood Pressure Exam'
     }
+    perform() {
+        this.results = {
+            upper: '125',
+            over: '75',
+            pulse: '74'
+        }
+        this.printResults()
+    }
 }
-
-// var pregled = new BloodPressureExam ('12.10.2018.', '14:00', Milan)
-
-// console.log(pregled)
-// console.log(pregled instanceof LabExam)

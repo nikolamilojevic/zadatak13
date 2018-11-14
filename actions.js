@@ -2,6 +2,8 @@ var Dragan = new Doctor ('Dragan', 'Draganovic', 'hirurgija')
 var Milan = new Patient('Milan', 'Milanovic', '05101981', '01/2018')
 Milan.chooseDoctor(Dragan)
 
-var Pregled = Dragan.scheduleExam(BloodSugarExam, Milan, '21.10.2018.', '14:15')
+Dragan.scheduleExam(BloodSugarExam, Milan, '21.10.2018.', '14:15')
+Milan.exam.perform()
 
-console.log(Dragan, Milan, Pregled)
+Dragan.scheduleExam(BloodPressureExam, Milan, '23.10.2018.', '16:30')
+Milan.exam.perform()

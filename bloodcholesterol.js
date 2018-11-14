@@ -3,9 +3,11 @@ class BloodCholesterolExam extends LabExam {
         super(date, time, patient)
         this.type = 'Blood Cholesterol Exam'
     }
+    perform() {
+        this.results = {
+            value: '16.5',
+            lastMeal: '21:40'
+        }
+        this.printResults()
+    }
 }
-
-// var pregled = new BloodCholesterolExam ('12.10.2018.', '14:00', Milan)
-
-// console.log(pregled)
-// console.log(pregled instanceof LabExam)

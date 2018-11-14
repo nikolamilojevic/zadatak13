@@ -7,4 +7,7 @@ class LabExam {
         this.time = time
         this.patient = patient
     }
+    printResults() {
+        console.log(this.results)
+    }
 }
