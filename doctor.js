@@ -4,6 +4,9 @@ class Doctor extends Person {
         this.speciality  = speciality
         this.patients = []
     }
+    addPatient(patient) {
+        this.patients.push(patient)
+    }
 }
 
 var Dragan = new Doctor ('Dragan', 'Draganovic', 'hirurgija')
